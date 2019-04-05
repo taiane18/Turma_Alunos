@@ -30,7 +30,6 @@ public class Tela_Principal extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
-        jLabel3 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
@@ -74,10 +73,6 @@ public class Tela_Principal extends javax.swing.JFrame {
         });
         getContentPane().add(jButton3);
         jButton3.setBounds(30, 120, 200, 23);
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/turma_alunos2/netbeans.jpg"))); // NOI18N
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(0, -20, 270, 210);
 
         jMenu1.setText("Turma_Alunos");
         jMenuBar1.add(jMenu1);
@@ -191,7 +186,6 @@ janela.setVisible(true);
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
